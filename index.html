@@ -32,6 +32,8 @@
     .main a { color: #007acc; text-decoration: none; }
     .main a:hover { text-decoration: underline; }
     .italic { font-style: italic; color: #555; }
+    .details { color: #555; display: block; margin-top: 4px; font-size: 0.95rem; }
+    .details em { font-style: italic; }
   </style>
 </head>
 <body>
@@ -52,22 +54,25 @@
     <!-- Main -->
     <main class="main">
       <section>
-        <p>I’m <strong>Boyoung Kim</strong>, an M.S. student in the Department of Computer Science and Engineering at Korea University, advised by <a href="#" target="_blank">Prof. Paul Hongsuk Seo</a> in the <a href="https://miil.korea.ac.kr" target="_blank">Multimodal Interactive Intelligence Laboratory (MIIL)</a>.</p>
+        <p>I’m <strong>Boyoung Kim</strong>, an M.S. student in the Department of Computer Science and Engineering at Korea University, advised by <a href="https://phseo.github.io/" target="_blank">Prof. Paul Hongsuk Seo</a> in the <a href="https://miil.korea.ac.kr" target="_blank">Multimodal Interactive Intelligence Laboratory (MIIL)</a>.</p>
         <!---<p>My research interests center on multimodal and generative models, with a particular focus on diffusion models. I have worked on topics such as data-efficient compression of diffusion models and preference-based optimization for text-to-image generation. I am broadly open to diverse directions in generative AI, multimodal learning, and beyond.</p>--->
       </section>
 
       <section>
         <h2>Education</h2>
         <ul>
-          <li><strong>M.S.</strong> in Computer Science and Engineering<br><span class="italic">Korea University, Seoul, Korea | Mar. 2025 – Present</span></li>
-          <li><strong>B.S.</strong> in Data Science<br><span class="italic">Korea University, Seoul, Korea | Mar.2021 – Feb. 2025</span></li>
+          <li><strong>M.S.</strong> in Computer Science and Engineering<br><span class="details">Korea University, Seoul, Korea | Mar. 2025 – Present</span></li>
+          <li><strong>B.S.</strong> in Data Science<br><span class="details">Korea University, Seoul, Korea | Mar.2021 – Feb. 2025</span></li>
         </ul>
       </section>
 
       <section>
         <h2>Publications</h2>
         <ul>
-          <li>ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision </li>
+          <li>
+            <a href="https://leeds1219.github.io/ReSCORE/" target="_blank">ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision</a>
+            <span class="details">Dosung Lee*, Wonjun Oh*, <strong>Boyoung Kim</strong>, Minyoung Kim, +Joonsuk Park, +Paul Hongsuck Seo. <em>ACL 2025</em>. (* Equal contribution, + Corresponding authors)</span>
+          </li>
         </ul>
       </section>
     </main>
