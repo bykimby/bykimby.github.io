@@ -34,6 +34,49 @@
     .italic { font-style: italic; color: #555; }
     .details { color: #555; display: block; margin-top: 4px; font-size: 0.95rem; }
     .details em { font-style: italic; }
+    @media (max-width: 768px) {
+
+      .container {
+        flex-direction: column;
+        margin: 20px; 
+      }
+
+      .sidebar {
+        width: 100%;
+        padding: 20px 15px;
+      }
+
+      .profile-pic {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 16px auto;
+        display: block;
+        object-fit: cover;
+      }
+
+      .sidebar h1 {
+        font-size: 1.6rem;
+        text-align: center;
+      }
+      .sidebar p.subtitle {
+        font-size: 0.9rem;
+        text-align: center;
+      }
+      .sidebar ul li {
+        font-size: 0.9rem;
+        padding-left: 0;
+      }
+      .main {
+        width: 100%;
+        padding: 20px 15px;
+      }
+      .main h2 {
+        font-size: 1.2rem;
+      }
+      .main p, .main ul li {
+        font-size: 0.95rem;
+      }
+    }
   </style>
 </head>
 <body>
